@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://EntryButton.cs" type="Script" id=1]
+
+[node name="Button" type="Button"]
+margin_right = 39.0
+margin_bottom = 40.0
+focus_mode = 1
+size_flags_horizontal = 3
+enabled_focus_mode = 1
+text = "Test"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
